@@ -330,7 +330,7 @@ def render_animation(args, anim_args,
             maxx_frames= 50 #anim_args.max_frames
             if loop == True:
               n_run = frame_idx
-              loop_sw = 40
+              loop_sw = 10
               #max_frames= anim_args.max_frames
               #for n_run in range(0, max_frames):
               
