@@ -327,7 +327,7 @@ def render_animation(args, anim_args,
                     prev_img = maintain_colors(prev_img, color_match_sample, anim_args.color_coherence)
 
             # aplicar Loop
-            maxx_frames= 50 #anim_args.max_frames
+            maxx_frames= 578 #anim_args.max_frames
             if loop == True:
               n_run = frame_idx
               loop_sw = 10
